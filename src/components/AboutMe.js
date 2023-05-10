@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from '../images/profile_image.png';
 
 // We declare an object called styles that will contain a few objects for card and heading styles
 // Notice that each key lists CSS styles in camel case
@@ -28,7 +29,14 @@ function AboutMe() {
       <div style={styles.heading}>About Me</div>
       <div style={styles.content}>
 
-        <p>Hello Main</p>
+        <p>Summary</p>
+        <img src={profileImage} className='items' alt="self protrait" />
+        <p>
+          Testing
+        </p>
+
+
+
         {/* <img src="https://media.licdn.com/dms/image/C560BAQGeCPin8jl-nA/company-logo_100_100/0/1600460945136?e=1691020800&v=beta&t=ACT5d3FtH-gCYPSXWI1AbAiNOPrwk5CLDHpGXPV7qX8"
           length="20" width="20" class="sub-container-2" /> <p>Product Engineering Manager</p>
 
