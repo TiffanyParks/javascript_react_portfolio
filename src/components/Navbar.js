@@ -21,7 +21,23 @@ const styles = {
 function Navbar() {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>Home</div>
+      <div style={styles.heading}>
+      <button type="button" className="btn toggle-btn" aria-pressed="true">
+          <span className="visually-hidden">Show </span>
+          <span>About Me</span>
+          <span className="visually-hidden"> card</span>
+        </button>
+        <button type="button" className="btn toggle-btn" aria-pressed="false">
+          <span className="visually-hidden">Show </span>
+          <span>My Work</span>
+          <span className="visually-hidden"> card</span>
+        </button>
+        <button type="button" className="btn toggle-btn" aria-pressed="false">
+          <span className="visually-hidden">Show </span>
+          <span>Contact Me</span>
+          <span className="visually-hidden"> card</span>
+        </button> 
+      </div>
     </div>
   );
 }
