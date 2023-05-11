@@ -8,7 +8,7 @@ const styles = {
     background: '#ededed',
   },
   heading: {
-    background: '#ffb5bc',
+    background: '#ffb5ba',
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',
@@ -22,15 +22,15 @@ const styles = {
 
 // In `Card`, we can assign a style from an object by using curly braces
 // We are assigning the card, heading, and content all from our `style` object
-function ContactMe() {
+function Card(props) {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>Contact Me</div>
+      <div id='my-work' style={styles.heading}>{props.name}</div>
       <div style={styles.content}>
-    <p>Hello</p>
+<p htmlFor={props.id}>Paragraph</p>
       </div>
     </div>
   );
 }
 
-export default ContactMe;
+export default Card;
