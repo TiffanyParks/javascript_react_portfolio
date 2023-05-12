@@ -25,9 +25,10 @@ const styles = {
 function Card(props) {
   return (
     <div style={styles.card}>
-      <div id='my-work' style={styles.heading}>{props.name}</div>
+      <div style={styles.heading}>{props.name}</div>
       <div style={styles.content}>
-<p htmlFor={props.id}>Paragraph</p>
+<p htmlFor={props.id}></p>
+        {props.content}
       </div>
     </div>
   );

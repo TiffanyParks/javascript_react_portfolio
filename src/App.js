@@ -10,7 +10,9 @@ function App(props) {
     <Card
       id={card.id}
       name={card.name}
-      key={card.id} />
+      key={card.id}
+      content={card.content} 
+      />
   ));
   return (
     <div>
