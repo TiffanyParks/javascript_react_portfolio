@@ -10,42 +10,48 @@ function Work() {
             id: 1,
             link: "https://tiffanyparks.github.io/prework-study-guide/",
             img: img1,
-            alt: "Prework Study Guide Screenshot"
+            alt: "Prework Study Guide Screenshot",
+           
         },
         {
-            id: 1,
+            id: 2,
             link: "https://tiffanyparks.github.io/prework-study-guide/",
             img: img1,
-            alt: "Prework Study Guide Screenshot"
+            alt: "Prework Study Guide Screenshot",
+        
         },
         {
-            id: 1,
+            id: 3,
             link: "https://tiffanyparks.github.io/prework-study-guide/",
             img: img1,
-            alt: "Prework Study Guide Screenshot"
+            alt: "Prework Study Guide Screenshot",
+            
         },
         {
-            id: 1,
+            id: 4,
             link: "https://tiffanyparks.github.io/prework-study-guide/",
             img: img1,
-            alt: "Prework Study Guide Screenshot"
+            alt: "Prework Study Guide Screenshot",
+          
         },
         {
-            id: 1,
+            id: 5,
             link: "https://tiffanyparks.github.io/prework-study-guide/",
             img: img1,
-            alt: "Prework Study Guide Screenshot"
+            alt: "Prework Study Guide Screenshot",
+        
         },
         {
-            id: 1,
+            id: 6,
             link: "https://tiffanyparks.github.io/prework-study-guide/",
             img: img1,
-            alt: "Prework Study Guide Screenshot"
+            alt: "Prework Study Guide Screenshot",
+       
         }
     ]
 
     return (
-        <div class="work-container">
+        <div className="work-container">
             {
                 projectData.map(project => {
                     return <Project 
