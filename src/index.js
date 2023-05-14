@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import '../src/styles/index.css'
 
+import './components/Navbar'
 import About from "./pages/About"
 import Work from "./pages/Work"
 import Contact from "./pages/Contact"

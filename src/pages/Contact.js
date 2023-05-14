@@ -10,17 +10,17 @@ function Contact () {
     const [nameText, setNameText] = useState("")
 
     function changeHandler (event) {
-        console.log(event.target.value)
+    
         if(event.target.name == "name") {
             setName(event.target.value)
         }
 
         if(event.target.name == "email") {
-            // setName(event.target.value)
+            setName(event.target.value)
         }
 
         if(event.target.name == "message") {
-            // setName(event.target.value)
+            setName(event.target.value)
         }
 
 
@@ -35,21 +35,21 @@ function Contact () {
             }
         }
 
-        // if(event.target.name == "name") {
-        //     if(event.target.value =="") {
-        //         setNameText("Name cannot be empty")
-        //     } else {
-        //         setNameText("")
-        //     }
-        // }
+        if(event.target.name == "email") {
+            if(event.target.value =="") {
+                setNameText("Name cannot be empty")
+            } else {
+                setNameText("")
+            }
+        }
 
-        // if(event.target.name == "name") {
-        //     if(event.target.value =="") {
-        //         setNameText("Name cannot be empty")
-        //     } else {
-        //         setNameText("")
-        //     }
-        // }
+        if(event.target.name == "message") {
+            if(event.target.value =="") {
+                setNameText("Name cannot be empty")
+            } else {
+                setNameText("")
+            }
+        }
 
 
     }
@@ -64,16 +64,16 @@ function Contact () {
             <label>Email</label>
             <input type='text' name="email"  onChange={changeHandler} onBlur={blurHandler}/>
 
-            <p>Email cannot be empty</p>
+            <p>{nameText}</p>
 
 
             <label>Message</label>
             <textarea type='text' rows="5" name="message"  onChange={changeHandler} onBlur={blurHandler} />
 
-            <p>Message cannot be empty</p>
+            <p>{nameText}</p>
 
 
-            <button>Submit</button>
+            <button className="submitBtn">Submit</button>
         </form>
     )
 }

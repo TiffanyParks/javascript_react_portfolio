@@ -9,6 +9,10 @@
     outline-offset: 0;
 }
 
+p {
+    font-size: 14px;
+}
+
 
 button {
     border: none;
@@ -69,6 +73,10 @@ button {
 
 .btn.toggle-btn[aria-pressed="true"] {
     text-decoration: underline;
+}
+
+.submitBtn{
+    border: 2px solid black;
 }
 
 /* .btn__filter {
