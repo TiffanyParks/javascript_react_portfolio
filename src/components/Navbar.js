@@ -1,6 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
-import Card from './Card';
+// import { useState } from 'react';
 
 // We declare an object called styles that will contain a few objects for card and heading styles
 // Notice that each key lists CSS styles in camel case
@@ -20,25 +19,14 @@ const styles = {
 };
 
 // In Navbar, we can assign a style from an object by using curly braces
-function Navbar() {
-
+function Navbar(props) {
 
   return (
     <div style={styles.card}>
       <div style={styles.heading}>
-        <button type="button" className="btn toggle-btn" aria-pressed="true">
+        <button type="button" className="btn toggle-btn" aria-pressed={props.login} id={props.id}>
           <span className="visually-hidden">Show </span>
-          <span>About Me</span>
-          <span className="visually-hidden"> card</span>
-        </button>
-        <button type="button" className="btn toggle-btn" aria-pressed="false">
-          <span className="visually-hidden">Show </span>
-          <span>My Work</span>
-          <span className="visually-hidden"> card</span>
-        </button>
-        <button type="button" className="btn toggle-btn" aria-pressed="false">
-          <span className="visually-hidden">Show </span>
-          <span>Contact Me</span>
+          <span>{props.name}</span>
           <span className="visually-hidden"> card</span>
         </button>
       </div>
