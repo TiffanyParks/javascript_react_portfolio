@@ -37,7 +37,7 @@ function Contact () {
 
         if(event.target.name == "email") {
             if(event.target.value =="") {
-                setNameText("Name cannot be empty")
+                setNameText("Email cannot be empty")
             } else {
                 setNameText("")
             }
@@ -45,7 +45,7 @@ function Contact () {
 
         if(event.target.name == "message") {
             if(event.target.value =="") {
-                setNameText("Name cannot be empty")
+                setNameText("Message cannot be empty")
             } else {
                 setNameText("")
             }

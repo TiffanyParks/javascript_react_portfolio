@@ -13,6 +13,9 @@ p {
     font-size: 14px;
 }
 
+label {
+    font-size: 14px;
+}
 
 button {
     border: none;
@@ -77,6 +80,7 @@ button {
 
 .submitBtn{
     border: 2px solid black;
+    font-size: 14px;
 }
 
 /* .btn__filter {
