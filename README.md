@@ -38,6 +38,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 <img width="477" alt="image" src="https://github.com/TiffanyParks/javascript_react_portfolio/assets/126128634/57abfa10-9cff-4b31-9cf6-ba0cf09cd05a">
 
+Live URL: https://tiffanyparks.github.io/javascript_react_portfolio/#about-me
 
 GitHub URL: https://github.com/TiffanyParks/javascript_react_portfolio.git
 
