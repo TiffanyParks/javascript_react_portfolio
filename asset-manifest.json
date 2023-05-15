@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/TiffanyParks/javascript_react_portfolio.git/static/css/main.12c60225.css",
-    "main.js": "/TiffanyParks/javascript_react_portfolio.git/static/js/main.f4425f5f.js",
-    "static/media/profile_image.png": "/TiffanyParks/javascript_react_portfolio.git/static/media/profile_image.78ce8111926546790c09.png",
-    "static/media/animal-fan.png": "/TiffanyParks/javascript_react_portfolio.git/static/media/animal-fan.4b5fb6cc2f347ea857a1.png",
-    "static/media/Horiseon JPG.jpg": "/TiffanyParks/javascript_react_portfolio.git/static/media/Horiseon JPG.60096f3e576b9c564b6d.jpg",
-    "static/media/Prework Study Guide JPG.jpg": "/TiffanyParks/javascript_react_portfolio.git/static/media/Prework Study Guide JPG.30c2053e659dadc58f31.jpg",
-    "static/media/quiz.png": "/TiffanyParks/javascript_react_portfolio.git/static/media/quiz.3d8f00a08230862fdaf9.png",
-    "static/media/generator.png": "/TiffanyParks/javascript_react_portfolio.git/static/media/generator.bea608f055e0cb9d6a83.png",
-    "index.html": "/TiffanyParks/javascript_react_portfolio.git/index.html",
-    "main.12c60225.css.map": "/TiffanyParks/javascript_react_portfolio.git/static/css/main.12c60225.css.map",
-    "main.f4425f5f.js.map": "/TiffanyParks/javascript_react_portfolio.git/static/js/main.f4425f5f.js.map"
+    "main.css": "/javascript_react_portfolio/static/css/main.12c60225.css",
+    "main.js": "/javascript_react_portfolio/static/js/main.dde3a46b.js",
+    "static/media/profile_image.png": "/javascript_react_portfolio/static/media/profile_image.78ce8111926546790c09.png",
+    "static/media/animal-fan.png": "/javascript_react_portfolio/static/media/animal-fan.4b5fb6cc2f347ea857a1.png",
+    "static/media/Horiseon JPG.jpg": "/javascript_react_portfolio/static/media/Horiseon JPG.60096f3e576b9c564b6d.jpg",
+    "static/media/Prework Study Guide JPG.jpg": "/javascript_react_portfolio/static/media/Prework Study Guide JPG.30c2053e659dadc58f31.jpg",
+    "static/media/quiz.png": "/javascript_react_portfolio/static/media/quiz.3d8f00a08230862fdaf9.png",
+    "static/media/generator.png": "/javascript_react_portfolio/static/media/generator.bea608f055e0cb9d6a83.png",
+    "index.html": "/javascript_react_portfolio/index.html",
+    "main.12c60225.css.map": "/javascript_react_portfolio/static/css/main.12c60225.css.map",
+    "main.dde3a46b.js.map": "/javascript_react_portfolio/static/js/main.dde3a46b.js.map"
   },
   "entrypoints": [
     "static/css/main.12c60225.css",
-    "static/js/main.f4425f5f.js"
+    "static/js/main.dde3a46b.js"
   ]
 }
