@@ -15,6 +15,7 @@ function Work() {
             link: "https://tiffanyparks.github.io/prework-study-guide/",
             img: img1,
             alt: "Prework Study Guide Screenshot",
+            h2: "Test"
            
         },
         {
@@ -55,7 +56,7 @@ function Work() {
     ]
 
     return (
-        <div className="work-container">
+        <div className="work-container" id="work-container">
             {
                 projectData.map(project => {
                     return <Project 
@@ -63,6 +64,7 @@ function Work() {
                     link= {project.link}
                     img={project.img}
                     alt={project.alt}
+                    h2={project.h2}
                 />
                 })
             }

@@ -55,7 +55,7 @@ function Contact () {
     }
 
     return (
-        <form className="contact-form">
+        <form className="contact-form" id="contact-form">
             <label>Name</label>
             <input type='text' name="name" onChange={changeHandler} onBlur={blurHandler}/>
 

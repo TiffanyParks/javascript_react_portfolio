@@ -24,10 +24,43 @@ function App(props) {
     <div>
       <Header />
       <Navbar />
+      {/* <button onClick={(e) => setisLoggedIn(e.target.value)} /> */}
       {cardList}
       <Footer />
     </div>
   );
-}
+  
+    // function MyButton(){
+  //   function handleClick(){
+  //     let contentBtn;
+  //     if (isLoggedIn) {
+  //       contentBtn =< Contact/>;
+  //     } else {
+  //       content = < About/>;
+  //     }
+  //   return (
+  //    <div>
+  //     {content}
+  //    </div>
+  //   );
+
+  //<div> {isLoggedIn || <About /> || <Contact /> || <Work />} </div>
+
+  // function MyButton() {
+    // const [isLoggedIn, setisLoggedIn] = useState(false);
+  
+  //   function handleClick() {
+  //     setisLoggedIn( isLoggedIn );
+  //   }
+  //   return {
+  //     <button onClick={handleClick}>
+  //     {isLoggedIn}
+  //     </button>
+  //     );
+  //   }
+  }
+
+
+
 
 export default App;

@@ -21,31 +21,26 @@ const styles = {
 
 // In Navbar, we can assign a style from an object by using curly braces
 function Navbar() {
-  // let [link, setLink] = useState(Card.props.id);
 
-  // const handleClick = () {
-  //   setLink((""));
-  //   console.log(link.target.value);
-  // };
 
   return (
     <div style={styles.card}>
       <div style={styles.heading}>
-        <button type="button" className="btn toggle-btn" aria-pressed="true" >
+        <a type="button" className="btn toggle-btn" aria-pressed="true" >
           <span className="visually-hidden">Show </span>
           <span>About Me</span>
           <span className="visually-hidden"> card</span>
-        </button>
-        <button type="button" className="btn toggle-btn" aria-pressed="false" >
+        </a>
+        <a type="button" href='#work-container' className="btn toggle-btn" aria-pressed="false" >
           <span className="visually-hidden">Show </span>
           <span>My Work</span>
           <span className="visually-hidden"> card</span>
-        </button>
-        <button type="button" className="btn toggle-btn" aria-pressed="false" >
+        </a>
+        <a type="button" className="btn toggle-btn" aria-pressed="false" href="#contact-form" >
           <span className="visually-hidden">Show </span>
           <span>Contact Me</span>
           <span className="visually-hidden"> card</span>
-        </button>
+        </a>
       </div>
     </div>
   );
